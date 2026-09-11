@@ -113,27 +113,29 @@ export const projects: Project[] = [
   },
   {
     id: "ai-knowledge",
-    name: "AI Knowledge Intelligence",
+    name: "AI Knowledge Assistant",
     category: "Enterprise AI · IBM",
     tagline:
-      "A knowledge system that turns historical implementation experience into reusable intelligence for consultants.",
+      "A multi-agent GenAI assistant that turns historical implementation experience into answers consultants can act on.",
     // No `thumbnail` — this renders the placeholder tile. Add one when you
     // have an image you're cleared to publish; see the banner at the top.
     thumbnailNote: "Confidential — no product UI shown",
     facts: [
-      { label: "ROLE", value: "Product / Implementation" },
+      { label: "ROLE", value: "Product / Builder" },
       { label: "CONTEXT", value: "IBM" },
-      { label: "DOMAIN", value: "OTM / GTM" },
+      { label: "STACK", value: "Python · RAG" },
+      { label: "YEAR", value: "2025—" },
     ],
     details: [
-      "Implementation knowledge tends to disappear once a project closes. This system was built so that experience could be retrieved and reused by the teams who came next.",
-      // TODO — add more detail here if you're cleared to share it.
+      "Implementation knowledge tends to disappear once a project closes. Consultants starting the next engagement re-derive answers that already exist somewhere in a past project's archive.",
+      "I co-developed a web-based multi-agent assistant in Python that uses retrieval-augmented generation over that history — handling knowledge retrieval, document generation, workflow guidance, and OTM/GTM troubleshooting in one place. It reduced manual research and documentation effort by roughly 40%.",
     ],
     contributions: [
-      "Retrieve implementation knowledge from past engagements",
-      "Accelerate consultant onboarding and training in OTM/GTM",
-      "Surface reusable solution patterns across projects",
-      "Support solution architecture with historical project experience",
+      "Co-developed the multi-agent system in Python with a RAG retrieval layer",
+      "Enterprise knowledge retrieval across past engagement history",
+      "Automated document generation and workflow guidance",
+      "OTM/GTM troubleshooting support",
+      "~40% reduction in manual research and documentation effort",
     ],
     visual: "diagram",
     note: "Client and delivery details are confidential. The diagram is schematic, not product UI.",

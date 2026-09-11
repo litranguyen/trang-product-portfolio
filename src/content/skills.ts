@@ -11,6 +11,8 @@
  *   note   optional one-liner under the group
  *
  * Rule of thumb: list what you'd be comfortable being interviewed on.
+ * Everything here is evidenced by something in the Experience or Projects
+ * sections — keep it that way.
  * ============================================================================
  */
 
@@ -30,40 +32,41 @@ export const skills: SkillGroup[] = [
       "Problem framing",
       "Prioritization",
       "MVP scoping",
-      "User stories",
-      "Acceptance criteria",
+      "Requirements & acceptance criteria",
     ],
   },
   {
     id: "ai",
     label: "AI & BUILD",
     items: [
-      "AI product design",
-      "Prompt & workflow design",
+      "Python",
+      "RAG",
+      "Multi-agent systems",
       "Prototyping",
       "React / Next.js",
-      "iOS prototyping",
     ],
     note: "I build the prototypes myself, which keeps the definition honest.",
-  },
-  {
-    id: "delivery",
-    label: "ENTERPRISE DELIVERY",
-    items: [
-      "Requirements → solution design",
-      "Oracle OTM / GTM",
-      "UAT & deployment",
-      "Stakeholder management",
-    ],
   },
   {
     id: "data",
     label: "DATA",
     items: [
       "SQL",
-      "Data analysis",
-      "Reporting & dashboards",
-      // TODO — add or replace with the tools you actually want to be asked about
+      "ETL & data validation",
+      "Power BI",
+      "Oracle BI",
+      "SAP",
+    ],
+  },
+  {
+    id: "delivery",
+    label: "ENTERPRISE DELIVERY",
+    items: [
+      "Oracle OTM / GTM",
+      "Requirements → solution design",
+      "Performance testing",
+      "CRPs & UAT",
+      "Stakeholder management",
     ],
   },
 ];
