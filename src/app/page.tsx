@@ -3,13 +3,13 @@ import IntroBlock from "@/components/home/IntroBlock";
 import ProjectGrid from "@/components/home/ProjectGrid";
 import ExperienceList from "@/components/home/ExperienceList";
 import SkillsGrid from "@/components/home/SkillsGrid";
-import AboutBlock from "@/components/home/AboutBlock";
 import { projects } from "@/content/projects";
 import { experience } from "@/content/experience";
 
 export default function Home() {
   return (
     <main className="home">
+      {/* Intro and about are one block — see src/content/intro.ts */}
       <IntroBlock />
 
       <section className="projects-section" id="work" aria-labelledby="h-work">
@@ -39,11 +39,6 @@ export default function Home() {
       <section className="skills-section" id="skills" aria-labelledby="h-skills">
         <SectionHead id="h-skills" number="03" label="Skills" />
         <SkillsGrid />
-      </section>
-
-      <section className="about-section" id="about" aria-labelledby="h-about">
-        <SectionHead id="h-about" number="04" label="About" />
-        <AboutBlock />
       </section>
     </main>
   );

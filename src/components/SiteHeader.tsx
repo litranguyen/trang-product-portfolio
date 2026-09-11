@@ -1,10 +1,11 @@
 import Link from "next/link";
 
+// No "About" entry — the intro at the top of the page is the about, and the
+// brand link already returns there from the case study.
 const links = [
   { href: "/#work", label: "Projects" },
   { href: "/#experience", label: "Experience" },
   { href: "/#skills", label: "Skills" },
-  { href: "/#about", label: "About" },
   { href: "/#contact", label: "Contact" },
 ];
 

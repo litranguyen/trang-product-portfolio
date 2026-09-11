@@ -9093,6 +9093,34 @@ em {
   color: #3f3730;
 }
 
+/* The narrative. Centred like the rest of the block, but held to a narrow
+   measure — centred text gets hard to track much past this width. */
+.intro-story {
+  max-width: 58ch;
+  margin-top: clamp(20px, 2.6vw, 28px);
+}
+
+.intro-story p {
+  margin: 0 0 18px;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #3f3730;
+}
+
+.intro-story p:last-child {
+  margin-bottom: 0;
+}
+
+.intro-personal {
+  max-width: 52ch;
+  margin: clamp(24px, 3vw, 32px) 0 0;
+  padding-top: clamp(20px, 2.6vw, 26px);
+  border-top: 1px solid var(--line-dark);
+  font-size: 15.5px;
+  line-height: 1.7;
+  color: var(--muted);
+}
+
 .intro-links {
   display: flex;
   flex-wrap: wrap;
@@ -9129,8 +9157,7 @@ em {
 
 .projects-section,
 .experience-section,
-.skills-section,
-.about-section {
+.skills-section {
   padding-block: clamp(46px, 6vw, 76px) clamp(50px, 7vw, 88px);
   border-top: 1px solid var(--line-dark);
 }
@@ -9772,50 +9799,6 @@ em {
   font-size: 13.5px;
   line-height: 1.65;
   color: var(--muted);
-}
-
-/* =========================================================
-   HOME — ABOUT
-========================================================= */
-
-.about {
-  max-width: 62ch;
-  margin-inline: auto;
-  text-align: center;
-}
-
-.about-copy {
-  min-width: 0;
-}
-
-.about-heading {
-  margin: 0;
-  font-size: clamp(24px, 2.9vw, 38px);
-  font-weight: 500;
-  line-height: 1.08;
-  letter-spacing: -0.05em;
-}
-
-.about-heading span {
-  color: var(--muted);
-}
-
-.about-para {
-  max-width: 62ch;
-  margin: 22px 0 0;
-  font-size: 16.5px;
-  line-height: 1.8;
-  color: #3f3730;
-}
-
-.about-personal {
-  max-width: 62ch;
-  margin: 26px 0 0;
-  padding-top: 22px;
-  border-top: 1px solid var(--line-dark);
-  font-size: 16px;
-  line-height: 1.7;
-  color: #524839;
 }
 
 /* =========================================================
@@ -11284,7 +11267,6 @@ em {
 #ideation,
 #define,
 #build,
-#about,
 #work,
 #skills,
 #experience,

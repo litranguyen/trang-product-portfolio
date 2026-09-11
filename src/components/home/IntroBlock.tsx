@@ -2,6 +2,9 @@ import Image from "next/image";
 import { intro } from "@/content/intro";
 
 /**
+ * Intro and about, combined — this is the top of the page and the only place
+ * the story is told.
+ *
  * Server component. The entrance is a CSS animation rather than a motion
  * component so this is present in the HTML and readable before hydration.
  */
@@ -46,8 +49,26 @@ export default function IntroBlock() {
         </p>
 
         <div
+          className="intro-story home-rise"
+          style={{ "--rise-delay": "250ms" } as React.CSSProperties}
+        >
+          {intro.paragraphs.map((paragraph) => (
+            <p key={paragraph}>{paragraph}</p>
+          ))}
+        </div>
+
+        {intro.personal ? (
+          <p
+            className="intro-personal home-rise"
+            style={{ "--rise-delay": "310ms" } as React.CSSProperties}
+          >
+            {intro.personal}
+          </p>
+        ) : null}
+
+        <div
           className="intro-links home-rise"
-          style={{ "--rise-delay": "270ms" } as React.CSSProperties}
+          style={{ "--rise-delay": "370ms" } as React.CSSProperties}
         >
           {intro.links.map((link) => (
             <a
