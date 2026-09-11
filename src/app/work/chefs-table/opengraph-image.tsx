@@ -15,8 +15,8 @@ export default function Image() {
           flexDirection: "column",
           justifyContent: "space-between",
           padding: "72px 80px",
-          background: "#111a14",
-          color: "#f2f0e8",
+          background: "#f7f3ea",
+          color: "#1f1a15",
           fontFamily: "sans-serif",
         }}
       >
@@ -26,7 +26,7 @@ export default function Image() {
             gap: 34,
             fontSize: 17,
             letterSpacing: 4,
-            color: "#8c938c",
+            color: "#7f7669",
           }}
         >
           <span>PRODUCT CASE STUDY</span>
@@ -39,7 +39,7 @@ export default function Image() {
             style={{
               fontSize: 20,
               letterSpacing: 5,
-              color: "#c8b783",
+              color: "#96763f",
               marginBottom: 26,
             }}
           >
@@ -65,7 +65,7 @@ export default function Image() {
             }}
           >
             <span>what to&nbsp;</span>
-            <span style={{ color: "#c8b783" }}>order.</span>
+            <span style={{ color: "#96763f" }}>order.</span>
           </div>
         </div>
 
@@ -74,10 +74,10 @@ export default function Image() {
             display: "flex",
             justifyContent: "space-between",
             paddingTop: 28,
-            borderTop: "1px solid rgba(255,255,255,0.14)",
+            borderTop: "1px solid rgba(31,26,21,0.14)",
             fontSize: 19,
             letterSpacing: 2,
-            color: "#8c938c",
+            color: "#7f7669",
           }}
         >
           <span>TRANG NGUYEN — PRODUCT MANAGER</span>

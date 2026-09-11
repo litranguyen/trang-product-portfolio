@@ -15,8 +15,8 @@ export default function Image() {
           flexDirection: "column",
           justifyContent: "space-between",
           padding: "72px 80px",
-          background: "#111a14",
-          color: "#f2f0e8",
+          background: "#f7f3ea",
+          color: "#1f1a15",
           fontFamily: "sans-serif",
         }}
       >
@@ -29,8 +29,8 @@ export default function Image() {
               width: 52,
               height: 52,
               borderRadius: 26,
-              border: "1px solid rgba(255,255,255,0.28)",
-              color: "#c8b783",
+              border: "1px solid rgba(31,26,21,0.26)",
+              color: "#96763f",
               fontSize: 18,
               letterSpacing: 1,
             }}
@@ -42,7 +42,7 @@ export default function Image() {
             style={{
               fontSize: 17,
               letterSpacing: 4,
-              color: "#8c938c",
+              color: "#7f7669",
             }}
           >
             PRODUCT MANAGER
@@ -69,7 +69,7 @@ export default function Image() {
             }}
           >
             <span>help people&nbsp;</span>
-            <span style={{ color: "#c8b783" }}>decide.</span>
+            <span style={{ color: "#96763f" }}>decide.</span>
           </div>
         </div>
 
@@ -78,10 +78,10 @@ export default function Image() {
             display: "flex",
             justifyContent: "space-between",
             paddingTop: 28,
-            borderTop: "1px solid rgba(255,255,255,0.14)",
+            borderTop: "1px solid rgba(31,26,21,0.14)",
             fontSize: 19,
             letterSpacing: 2,
-            color: "#8c938c",
+            color: "#7f7669",
           }}
         >
           <span>TRANG NGUYEN</span>

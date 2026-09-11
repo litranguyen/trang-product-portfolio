@@ -8,14 +8,14 @@ export default function SiteFooter() {
           <span className="site-footer-kicker">GET IN TOUCH</span>
 
           <h2>
-            Currently looking for
+            Let&apos;s build
             <br />
-            <span>product management roles.</span>
+            <span>something useful.</span>
           </h2>
 
           <p>
-            Interested in AI products, decision-making, and the moments where a
-            good interface changes what someone chooses to do.
+            Open to product roles building AI products. Happy to talk through
+            how Chef&apos;s Table was scoped, or anything else here.
           </p>
         </div>
 
